@@ -1,0 +1,43 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Replace header/footer logo with production-ready transparent asset",
+  "requirements": [
+    {
+      "id": "REQ-22",
+      "summary": "Add a production-ready transparent-background GARUDAYA logo asset under the generated public assets folder.",
+      "acceptanceCriteria": [
+        "A new transparent-background logo image exists under frontend/public/assets/generated.",
+        "The new logo is web-friendly (crisp, cropped to remove excessive whitespace, and sized consistently with the current logo usage)."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/public/assets/generated/garudaya-logo-transparent.dim_1200x300.png",
+          "operation": "create",
+          "description": "Add the cleaned, production-ready transparent-background logo wordmark for GARUDAYA PRIVATE LIMITED (crisp, tightly cropped to remove excess whitespace, and suitable for web usage at typical header/footer sizes)."
+        }
+      ]
+    },
+    {
+      "id": "REQ-23",
+      "summary": "Update header and footer to use the new transparent logo and ensure it displays clearly without distortion in light and dark themes.",
+      "acceptanceCriteria": [
+        "frontend/src/components/site/SiteHeader.tsx uses the new transparent logo src path.",
+        "frontend/src/components/site/SiteFooter.tsx uses the new transparent logo src path.",
+        "Logo preserves aspect ratio (no distortion) and remains clearly visible in header/footer across light and dark theme backgrounds (e.g., via correct sizing and, if needed, a subtle container/background behind the logo)."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/site/SiteHeader.tsx",
+          "operation": "modify",
+          "description": "Replace the current logo src (garudaya-logo-white-bg.dim_1200x300.png) with /assets/generated/garudaya-logo-transparent.dim_1200x300.png and adjust the logo/container styling to ensure: (1) preserved aspect ratio (e.g., w-auto/object-contain), (2) no stretching, and (3) clear visibility/contrast on both light and dark header backgrounds (add a subtle background/overlay behind the logo only if needed)."
+        },
+        {
+          "path": "frontend/src/components/site/SiteFooter.tsx",
+          "operation": "modify",
+          "description": "Replace the current logo src (garudaya-logo-white-bg.dim_1200x300.png) with /assets/generated/garudaya-logo-transparent.dim_1200x300.png and adjust the logo/container styling to ensure: (1) preserved aspect ratio (e.g., w-auto/object-contain), (2) no stretching, and (3) clear visibility/contrast on both light and dark footer backgrounds (add a subtle background/overlay behind the logo only if needed)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "kind": "build_request",
+  "title": "Use transparent logo and display it properly across the site",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-22",
+      "text": "Add a cleaned, production-ready transparent-background logo asset for GARUDAYA PRIVATE LIMITED and store it in frontend/public/assets/generated.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "plz use transperens logo and sowe porpurly logo"
+        ]
+      },
+      "acceptanceCriteria": [
+        "A new transparent-background logo image exists under frontend/public/assets/generated.",
+        "The new logo is web-friendly (crisp, cropped to remove excessive whitespace, and sized consistently with the current logo usage)."
+      ]
+    },
+    {
+      "id": "REQ-23",
+      "text": "Update the site header and footer to use the transparent-background logo asset instead of /assets/generated/garudaya-logo-white-bg.dim_1200x300.png, and ensure the logo renders clearly (good contrast, not stretched) in both light and dark themes.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-4"
+        ],
+        "quotes": [
+          "plz use transperens logo and sowe porpurly logo"
+        ]
+      },
+      "acceptanceCriteria": [
+        "frontend/src/components/site/SiteHeader.tsx uses the new transparent logo src path.",
+        "frontend/src/components/site/SiteFooter.tsx uses the new transparent logo src path.",
+        "Logo preserves aspect ratio (no distortion) and remains clearly visible in header/footer across light and dark theme backgrounds (e.g., via correct sizing and, if needed, a subtle container/background behind the logo)."
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify files under frontend/src/components/ui (read-only components).",
+    "Do not modify immutable hook/bootstrap files (frontend/src/hooks/useInternetIdentity.ts, frontend/src/hooks/useInternetIdentity.tsx, frontend/src/hooks/useActor.ts, frontend/src/main.tsx).",
+    "Backend remains single-actor; no backend changes are required for this request."
+  ],
+  "nonGoals": [
+    "Implementing new pages, routes, or registration flows beyond the logo update.",
+    "Adding or changing authentication, backend logic, or data persistence."
+  ],
+  "imageRequirements": {
+    "required": [
+      "Transparent-background logo wordmark (garudaya-logo-transparent.dim_1200x300.png)"
+    ],
+    "edits": []
+  },
+  "userProfileUpdate": {
+    "goalsToAdd": [],
+    "goalsToRemove": [],
+    "preferencesToAdd": [],
+    "preferencesToRemove": [],
+    "miscToAdd": [],
+    "miscToRemove": [],
+    "fieldsToSet": {},
+    "fieldsToDelete": []
+  }
+}

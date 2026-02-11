@@ -1,0 +1,40 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-add-a-cleaned-production-ready-transparent-background-logo-asset-for-garudaya-private-limited-and-store-it-in-frontend-public-assets-generated",
+      "featureTitle": "Add a cleaned, production-ready transparent-background logo asset for GARUDAYA PRIVATE LIMITED and store it in frontend/public/assets/generated.",
+      "files": [],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-22"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-the-site-header-and-footer-to-use-the-transparent-background-logo-asset-instead-of-assets-generated-garudaya-logo-white-bg-dim-1200x300-png-and-ensure-the-logo-renders-clearly-good-contrast-not-stretched-in-both-light-and-dark-themes",
+      "featureTitle": "Update the site header and footer to use the transparent-background logo asset instead of /assets/generated/garudaya-logo-white-bg.dim_1200x300.png, and ensure the logo renders clearly (good contrast, not stretched) in both light and dark themes.",
+      "files": [
+        "frontend/src/components/site/SiteFooter.tsx",
+        "frontend/src/components/site/SiteHeader.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-23"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

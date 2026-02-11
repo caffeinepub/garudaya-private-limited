@@ -1,0 +1,310 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 9,
+  "summary": "High-end, modern, investor-ready corporate website for GARUDAYA PRIVATE LIMITED with a premium deep blue/white + gold visual system, trust- and growth-focused messaging, multi-sector services, and lead/registration flows for vendors, farmers, and clients (plus live chat and trust-building sections).",
+  "architectural_notes": [
+    "Website must look clean, premium, and highly professional; avoid clutter; investor-ready and scalable for a fast-growing startup.",
+    "Brand styling: deep blue + white base with gold accents to convey trust and growth; strong typography; minimal layout; global/national brand feel.",
+    "Core site pages required: Home, About Us, Services, Why Choose Us, Contact; plus a global footer on all pages.",
+    "Home hero tagline must be: 'Built for the Future'.",
+    "Primary messaging emphasis: increase income for farmers/vendors/partners and build long-term trust via reliability, transparency, and growth.",
+    "Home page must include strong registration CTAs for Vendor, Farmer, and Client, plus benefit highlights and trust indicators.",
+    "Add dedicated trust-building section (secure partnerships, transparent dealings, professional operations, dedicated support).",
+    "Include registration flows/pages: Vendor Registration, Farmer Registration, Client Registration/Inquiry with clear success/failure states and professional copy.",
+    "Add floating live chat across all pages; prefer WhatsApp integration or chatbot if feasible.",
+    "Avoid template-style appearance; site must feel like a fast-growing national/global brand with professional authority."
+  ],
+  "known_issues": [
+    "Logo asset/display needs correction: use transparent logo and show it properly/consistently across the site."
+  ],
+  "isFixRequest": true,
+  "imageRequirements": "## Required Images\n- Transparent-background logo wordmark (garudaya-logo-transparent.dim_1200x300.png)",
+  "existing_features": [
+    {
+      "id": "feature-implement-a-clean-premium-corporate-visual-system-for-garudaya-private-limited-using-a-deep-blue-white-base-with-gold-accent-highlights-strong-typography-generous-spacing-and-a-minimal-investor-ready-layout-that-feels-like-a-national-global-brand",
+      "title": "Implement a clean, premium, corporate visual system for GARUDAYA PRIVATE LIMITED using a deep blue + white base with gold accent highlights, strong typography, generous spacing, and a minimal, investor-ready layout that feels like a national/global brand.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-home-page-with-1-a-powerful-hero-section-containing-the-tagline-built-for-the-future-2-a-brief-section-describing-company-vision-3-a-core-sectors-highlight-section-covering-agriculture-import-export-technology-services-solar-renewable-energy-education-support-and-business-consultancy-and-4-a-prominent-call-to-action-button-labeled-contact-or-work-with-us-that-navigates-to-the-contact-page",
+      "title": "Create a Home page with: (1) a powerful hero section containing the tagline \"Built for the Future\", (2) a brief section describing company vision, (3) a core sectors highlight section covering Agriculture, Import-Export, Technology Services, Solar & Renewable Energy, Education Support, and Business Consultancy, and (4) a prominent call-to-action button labeled \"Contact\" or \"Work With Us\" that navigates to the Contact page.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-about-us-page-that-includes-clearly-separated-mission-and-vision-sections-with-the-provided-messaging-and-supporting-copy-that-communicates-a-leadership-driven-innovation-focused-corporate-identity",
+      "title": "Create an About Us page that includes clearly separated Mission and Vision sections with the provided messaging, and supporting copy that communicates a leadership-driven, innovation-focused corporate identity.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-services-page-with-separate-clearly-labeled-sections-for-agriculture-farmer-support-import-export-solutions-technology-services-solar-renewable-projects-education-skill-development-business-consulting-each-section-must-include-concise-english-descriptive-copy-suitable-for-a-corporate-investor-audience",
+      "title": "Create a Services page with separate, clearly labeled sections for: Agriculture & Farmer Support; Import & Export Solutions; Technology Services; Solar & Renewable Projects; Education & Skill Development; Business Consulting. Each section must include concise English descriptive copy suitable for a corporate/investor audience.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-why-choose-us-page-or-section-that-lists-the-five-points-trusted-company-transparent-process-future-focused-scalable-solutions-strong-network-presented-in-a-premium-minimal-layout-e-g-cards-grid-or-checklist-with-brief-supporting-text",
+      "title": "Create a Why Choose Us page (or section) that lists the five points: Trusted company; Transparent process; Future-focused; Scalable solutions; Strong network, presented in a premium, minimal layout (e.g., cards, grid, or checklist) with brief supporting text.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-page-that-includes-an-inquiry-form-name-email-subject-message-plus-placeholders-for-company-email-phone-and-office-address-the-form-must-provide-basic-client-side-validation-and-a-clear-success-failure-state-initially-non-sending-is-acceptable-if-clearly-communicated",
+      "title": "Create a Contact page that includes an inquiry form (name, email, subject, message), plus placeholders for company email, phone, and office address. The form must provide basic client-side validation and a clear success/failure state (initially non-sending is acceptable if clearly communicated).",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-global-footer-displayed-across-all-pages-that-includes-quick-links-home-about-services-why-choose-us-contact-services-list-the-six-service-labels-and-social-media-placeholders-icons-links-as-placeholders",
+      "title": "Add a global footer displayed across all pages that includes: Quick links (Home, About, Services, Why Choose Us, Contact), Services list (the six service labels), and social media placeholders (icons/links as placeholders).",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-site-navigation-header-menu-that-allows-users-to-access-home-about-us-services-why-choose-us-and-contact-ensuring-the-experience-is-scalable-and-professional-on-both-desktop-and-mobile",
+      "title": "Implement site navigation (header/menu) that allows users to access Home, About Us, Services, Why Choose Us, and Contact, ensuring the experience is scalable and professional on both desktop and mobile.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-generated-static-brand-visuals-to-the-frontend-as-assets-and-use-them-in-the-ui-a-primary-wordmark-logo-for-garudaya-private-limited-and-a-set-of-six-minimal-sector-icons-one-per-sector-ensuring-they-match-the-deep-blue-white-gold-premium-style",
+      "title": "Add generated static brand visuals to the frontend as assets and use them in the UI: a primary wordmark logo for GARUDAYA PRIVATE LIMITED and a set of six minimal sector icons (one per sector), ensuring they match the deep blue/white/gold premium style.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-vendor-registration-page-at-a-new-route-e-g-register-vendor-with-a-premium-trust-forward-layout-and-an-onboarding-form-containing-these-fields-business-name-owner-name-phone-email-address-product-service-category-years-of-experience-upload-business-documents-and-bank-details-optional-or-later-stage-display-the-page-message-join-our-trusted-vendor-network-and-expand-your-business-reach-the-form-must-include-basic-client-side-validation-and-clear-success-failure-ui-states-submitting-can-remain-non-sending-but-must-be-clearly-communicated",
+      "title": "Add a Vendor Registration page at a new route (e.g., \"/register/vendor\") with a premium, trust-forward layout and an onboarding form containing these fields: Business Name, Owner Name, Phone, Email, Address, Product/Service Category, Years of Experience, Upload Business Documents, and Bank Details (optional or later stage). Display the page message: \"Join our trusted vendor network and expand your business reach.\" The form must include basic client-side validation and clear success/failure UI states (submitting can remain non-sending but must be clearly communicated).",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-farmer-registration-page-at-a-new-route-e-g-register-farmer-with-an-onboarding-form-containing-these-fields-farmer-name-mobile-number-location-type-of-crops-farming-capacity-land-size-organic-traditional-and-bank-details-optional-display-the-page-message-register-today-and-grow-your-agricultural-income-with-reliable-market-access-the-form-must-include-basic-client-side-validation-and-clear-success-failure-ui-states-submitting-can-remain-non-sending-but-must-be-clearly-communicated",
+      "title": "Add a Farmer Registration page at a new route (e.g., \"/register/farmer\") with an onboarding form containing these fields: Farmer Name, Mobile Number, Location, Type of Crops, Farming Capacity, Land Size, \"खेती का प्रकार\" (Organic / Traditional), and Bank Details (optional). Display the page message: \"Register today and grow your agricultural income with reliable market access.\" The form must include basic client-side validation and clear success/failure UI states (submitting can remain non-sending but must be clearly communicated).",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-client-registration-inquiry-page-at-a-new-route-e-g-register-client-with-a-form-containing-these-fields-company-client-name-requirement-quantity-optional-contact-details-and-message-include-cta-copy-on-the-page-tell-us-your-requirement-our-team-will-connect-with-you-the-form-must-include-basic-client-side-validation-and-clear-success-failure-ui-states-submitting-can-remain-non-sending-but-must-be-clearly-communicated",
+      "title": "Add a Client Registration / Inquiry page at a new route (e.g., \"/register/client\") with a form containing these fields: Company / Client Name, Requirement, Quantity (optional), Contact Details, and Message. Include CTA copy on the page: \"Tell us your requirement — our team will connect with you.\" The form must include basic client-side validation and clear success/failure UI states (submitting can remain non-sending but must be clearly communicated).",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-home-page-to-be-income-growth-and-registration-oriented-by-adding-a-a-hero-headline-empowering-growth-for-farmers-vendors-and-businesses-alongside-the-existing-tagline-built-for-the-future-b-a-benefits-highlight-list-containing-exactly-increase-your-earnings-transparent-partnerships-national-global-market-access-technology-driven-operations-c-prominent-cta-buttons-linking-to-the-three-registration-pages-register-as-vendor-register-as-farmer-and-become-a-client-and-d-trust-indicators-displayed-on-the-home-page-secure-registration-verified-network-professional-management",
+      "title": "Update the Home page to be income-growth and registration oriented by adding: (a) a hero headline \"Empowering Growth for Farmers, Vendors, and Businesses\" alongside the existing tagline \"Built for the Future\"; (b) a benefits highlight list containing exactly: \"Increase your earnings\", \"Transparent partnerships\", \"National & global market access\", \"Technology-driven operations\"; (c) prominent CTA buttons linking to the three registration pages: \"Register as Vendor\", \"Register as Farmer\", and \"Become a Client\"; and (d) trust indicators displayed on the Home page: \"Secure Registration\", \"Verified Network\", \"Professional Management\".",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-dedicated-trust-section-block-distinct-section-on-a-page-ideally-home-that-includes-the-items-secure-partnerships-transparent-dealings-professional-operations-dedicated-support-and-includes-the-optional-line-your-growth-is-our-commitment",
+      "title": "Create a dedicated Trust Section block (distinct section on a page, ideally Home) that includes the items: \"Secure Partnerships\", \"Transparent Dealings\", \"Professional Operations\", \"Dedicated Support\", and includes the optional line \"Your Growth is Our Commitment.\"",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-floating-live-chat-button-visible-on-all-pages-the-button-must-display-or-trigger-the-greeting-text-welcome-to-garudaya-how-can-we-help-you-grow-today-implement-this-as-a-whatsapp-chat-link-with-a-prefilled-message-use-a-placeholder-whatsapp-number-if-none-is-provided-and-do-not-require-any-third-party-chat-sdk",
+      "title": "Add a floating live chat button visible on all pages. The button must display or trigger the greeting text: \"Welcome to GARUDAYA! How can we help you grow today?\" Implement this as a WhatsApp chat link with a prefilled message (use a placeholder WhatsApp number if none is provided), and do not require any third-party chat SDK.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-two-new-legal-pages-privacy-policy-and-terms-each-on-its-own-route-e-g-privacy-and-terms-content-can-be-corporate-placeholder-copy-but-must-be-professional-and-consistent-with-the-site-visual-system",
+      "title": "Add two new legal pages: Privacy Policy and Terms, each on its own route (e.g., \"/privacy\" and \"/terms\"). Content can be corporate placeholder copy, but must be professional and consistent with the site visual system.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-global-footer-to-include-a-a-registrations-section-with-links-to-vendor-registration-farmer-registration-and-client-registration-inquiry-pages-and-b-legal-links-to-privacy-policy-and-terms-keep-existing-quick-links-services-list-and-social-placeholders",
+      "title": "Update the global footer to include: (a) a \"Registrations\" section with links to Vendor Registration, Farmer Registration, and Client Registration / Inquiry pages; and (b) legal links to Privacy Policy and Terms. Keep existing Quick Links, Services list, and social placeholders.",
+      "reqIds": [
+        "REQ-17"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-page-to-include-a-map-placeholder-block-in-addition-to-the-existing-inquiry-form-office-address-placeholder-email-and-phone",
+      "title": "Update the Contact page to include a \"Map\" placeholder block in addition to the existing inquiry form, office address placeholder, email, and phone.",
+      "reqIds": [
+        "REQ-18"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-services-page-and-copy-across-the-registration-flows-to-emphasize-the-business-goal-of-income-growth-and-business-expansion-for-farmers-vendors-and-clients-while-keeping-the-six-service-categories-unchanged",
+      "title": "Update the Services page and copy across the registration flows to emphasize the business goal of income growth and business expansion (for farmers, vendors, and clients) while keeping the six service categories unchanged.",
+      "reqIds": [
+        "REQ-19"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-cleaned-production-ready-logo-asset-from-the-uploaded-image-logogarudaya-jpeg-with-transparency-removed-solid-white-background-cropped-to-remove-excessive-whitespace-and-saved-into-frontend-public-assets-generated-as-a-web-friendly-image",
+      "title": "Create a cleaned, production-ready logo asset from the uploaded image (logogarudaya.jpeg) with transparency removed (solid white background), cropped to remove excessive whitespace, and saved into frontend/public/assets/generated as a web-friendly image.",
+      "reqIds": [
+        "REQ-20"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-site-header-and-footer-to-use-the-new-cleaned-logo-asset-instead-of-the-current-generated-wordmark-image-assets-generated-garudaya-wordmark-dim-1200x300-png",
+      "title": "Update the site header and footer to use the new cleaned logo asset instead of the current generated wordmark image (/assets/generated/garudaya-wordmark.dim_1200x300.png).",
+      "reqIds": [
+        "REQ-21"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-cleaned-production-ready-transparent-background-logo-asset-for-garudaya-private-limited-and-store-it-in-frontend-public-assets-generated",
+      "title": "Add a cleaned, production-ready transparent-background logo asset for GARUDAYA PRIVATE LIMITED and store it in frontend/public/assets/generated.",
+      "reqIds": [
+        "REQ-22"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-site-header-and-footer-to-use-the-transparent-background-logo-asset-instead-of-assets-generated-garudaya-logo-white-bg-dim-1200x300-png-and-ensure-the-logo-renders-clearly-good-contrast-not-stretched-in-both-light-and-dark-themes",
+      "title": "Update the site header and footer to use the transparent-background logo asset instead of /assets/generated/garudaya-logo-white-bg.dim_1200x300.png, and ensure the logo renders clearly (good contrast, not stretched) in both light and dark themes.",
+      "reqIds": [
+        "REQ-23"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Define premium corporate website UI style guide (deep blue/white with gold accents, strong typography, minimal layout, global brand feel).",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Create Home page with hero tagline 'Built for the Future', brief company vision, core sector highlights, and CTA button (Contact / Work With Us).",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Create About Us page including mission, vision, and leadership/innovation-focused positioning content.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Create Services page with separate sections for Agriculture & Farmer Support, Import & Export Solutions, Technology Services, Solar & Renewable Projects, Education & Skill Development, and Business Consulting.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Create Why Choose Us page with points: trusted company, transparent process, future-focused, scalable solutions, strong network.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Create Contact page with inquiry form and placeholders for email, phone, and office address.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Create global Footer with quick links, services list, and social media placeholders.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Add Vendor Registration page with vendor onboarding form (business details, category, experience, document upload; bank details optional) and trust-focused messaging.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Add Farmer Registration page with farmer onboarding form (crops, capacity, land size, खेती का प्रकार options; bank details optional) and income-growth messaging.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Add Client Registration / Inquiry page with requirement capture form (company/client name, requirement, quantity optional, contact details, message) and CTA copy.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Update Home page to include prominent registration CTAs (Register as Vendor/Farmer/Become a Client), benefit highlights, and trust indicators (secure registration, verified network, professional management).",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-12",
+      "summary": "Add dedicated Trust Section block (secure partnerships, transparent dealings, professional operations, dedicated support; optional line 'Your Growth is Our Commitment').",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-13",
+      "summary": "Add floating live chat button visible on all pages (WhatsApp chat or AI chatbot integration if possible) with greeting message.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-14",
+      "summary": "Add legal pages (Privacy Policy, Terms) and include them in the footer.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-15",
+      "summary": "Update global Footer to include Registrations links section (Vendor/Farmer/Client), in addition to quick links, services, social placeholders, and legal links.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-16",
+      "summary": "Use a transparent-background logo asset (instead of white-bg) and ensure the logo is displayed properly/consistently across the site (header/footer/sections).",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "GARUDAYA PRIVATE LIMITED",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

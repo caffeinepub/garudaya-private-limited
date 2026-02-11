@@ -1,0 +1,52 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-11T13:19:04.128Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 2,
+    "implemented": 2,
+    "items": [
+      {
+        "id": "REQ-22",
+        "summary": "Add a cleaned, production-ready transparent-background logo asset for GARUDAYA PRIVATE LIMITED and store it in frontend/public/assets/generated.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/public/assets/generated/garudaya-logo-transparent.dim_1200x300.png"
+        ],
+        "matchedFiles": [
+          "frontend/public/assets/generated/garudaya-logo-transparent.dim_1200x300.png"
+        ]
+      },
+      {
+        "id": "REQ-23",
+        "summary": "Update the site header and footer to use the transparent-background logo asset instead of /assets/generated/garudaya-logo-white-bg.dim_1200x300.png, and ensure the logo renders clearly (good contrast, not stretched) in both light and dark themes.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/site/SiteHeader.tsx",
+          "frontend/src/components/site/SiteFooter.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/site/SiteHeader.tsx",
+          "frontend/src/components/site/SiteFooter.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/public/assets/generated/garudaya-logo-transparent.dim_1200x300.png",
+    "frontend/src/components/site/SiteFooter.tsx",
+    "frontend/src/components/site/SiteHeader.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

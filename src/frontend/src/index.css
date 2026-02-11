@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --radius: 0.25rem;
+        /* Deep Blue primary - corporate trust */
+        --background: 0.98 0.01 240;
+        --foreground: 0.20 0.04 240;
+        --card: 1 0 0;
+        --card-foreground: 0.20 0.04 240;
+        --popover: 1 0 0;
+        --popover-foreground: 0.20 0.04 240;
+        /* Deep Blue for primary actions */
+        --primary: 0.35 0.12 240;
+        --primary-foreground: 0.98 0.01 240;
+        /* Gold accent for CTAs and highlights */
+        --secondary: 0.75 0.15 60;
+        --secondary-foreground: 0.20 0.04 240;
+        --muted: 0.95 0.01 240;
+        --muted-foreground: 0.50 0.03 240;
+        --accent: 0.75 0.15 60;
+        --accent-foreground: 0.20 0.04 240;
+        --destructive: 0.577 0.245 27.325;
+        --destructive-foreground: 0.985 0 0;
+        --border: 0.88 0.02 240;
+        --input: 0.88 0.02 240;
+        --ring: 0.35 0.12 240;
+        --chart-1: 0.35 0.12 240;
+        --chart-2: 0.75 0.15 60;
+        --chart-3: 0.50 0.08 240;
+        --chart-4: 0.65 0.12 200;
+        --chart-5: 0.55 0.10 280;
+    }
+
+    .dark {
+        --background: 0.15 0.04 240;
+        --foreground: 0.95 0.01 240;
+        --card: 0.20 0.04 240;
+        --card-foreground: 0.95 0.01 240;
+        --popover: 0.20 0.04 240;
+        --popover-foreground: 0.95 0.01 240;
+        --primary: 0.75 0.15 60;
+        --primary-foreground: 0.15 0.04 240;
+        --secondary: 0.35 0.12 240;
+        --secondary-foreground: 0.95 0.01 240;
+        --muted: 0.25 0.04 240;
+        --muted-foreground: 0.65 0.03 240;
+        --accent: 0.75 0.15 60;
+        --accent-foreground: 0.15 0.04 240;
+        --destructive: 0.704 0.191 22.216;
+        --destructive-foreground: 0.95 0.01 240;
+        --border: 0.30 0.04 240;
+        --input: 0.30 0.04 240;
+        --ring: 0.75 0.15 60;
+        --chart-1: 0.75 0.15 60;
+        --chart-2: 0.35 0.12 240;
+        --chart-3: 0.55 0.10 200;
+        --chart-4: 0.65 0.12 280;
+        --chart-5: 0.60 0.10 180;
+    }
+
+    * {
+        @apply border-border;
+    }
+    
+    body {
+        @apply bg-background text-foreground;
+        font-feature-settings: "rlig" 1, "calt" 1;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        @apply font-bold tracking-tight;
+    }
+
+    h1 {
+        @apply text-4xl md:text-5xl lg:text-6xl;
+    }
+
+    h2 {
+        @apply text-3xl md:text-4xl lg:text-5xl;
+    }
+
+    h3 {
+        @apply text-2xl md:text-3xl;
+    }
+
+    h4 {
+        @apply text-xl md:text-2xl;
+    }
+}
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+}
